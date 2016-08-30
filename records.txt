@@ -1,0 +1,6 @@
+Top 5 records:
+#1 null 0
+#2 null 0
+#3 null 0
+#4 null 0
+#5 null 0

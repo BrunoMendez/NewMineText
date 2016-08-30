@@ -1,0 +1,150 @@
+[1E][1]
+\ Lo que estaba afuera de la puerta era tu esposa muerta y te esta mordiendo el cuello. Tu reaccion es: \
+= Morderla devuelta { Pasas a la siguiente ronda. } # Era un zombi y te comio. #
+* Pedir ayuda { Era un zombi y te comio }
++ Retroceder y matarla con un palo { Pasas a la siguiente ronda. }
+* Tratar de noquearla y llevarla al hospital { Era un zombi y te comio }
+[1E][2]
+\ Ahora hay 5 creaturas más y una de ellas esta agarrando te el pie. Tu reacción es: \
+* Retroceder y luchar contra los otros { Era un zombi y te comio }
+* Pedir ayuda { Era un zombi y te comio }
++ Usar tu fuerza para derribarlos { Pasas a la siguiente ronda }
+= Usar tus habilidades de combate para pelear contra ellos { Pasas a la siguiente ronda. } # Era un zombi y te comio #
+[1E][3]
+\ Lo que estaba detras de la puerta era tu mejor amigo, pero se ve muy mal y se te esta acercando. Tu reaccion es: \
+* Pedir ayuda { Era un zombi y te comio }
+= Reirte de su broma { Pasas a la siguiente ronda. } # Era un zombi y te comio #
+* Abrazarlo { Era un zombi y te comio }
++ Tratar de noquearlo con un golpe { Pasas a la siguiente ronda. }
+[1E][4]
+\ Ves a la creatura comiendose a alguien enfrente de ti. Tu reaccion es: \
+= Tratar de detenerlo { Pasas a la siguiente ronda. } # Era un zombi y te comio #
+* Ir a buscar tu pistola { Era un zombi y te comio }
++ Tratar de pasar alado de el { Pasas a la siguiente ronda. }
+* Cerrar la puerta y esonderte en tu casa { Era un zombi y te comio }
+[1E][5]
+\ Lo que estaba detras de la puerta era tu novia, pero se ve muy mal y te esta tratando de agarrar. Tu reaccion es: \
++ Dejarla entrar { Pasas a la siguiente ronda. }
+* Pedir ayuda { Era un zombi y te comio }
+= Darle un abrazo { Pasas a la siguiente ronda. } # Era un zombi y te comio #
+* Golpearla en la cara { Era un zombi y te comio }
+[2E][1]
+\ Te mordieron pero por alguna razon sobreviviste. Te levantas con hambre... hambre de humanos. Ves a un amigo tuyo con un cuchillo a lo lejos y gente muerta alrededor de ti. Tu reaccion es \
+* Resistir el hambre { Te has muerto de hambre }
+= Tratar de comerte a tu amigo { Pasas a la siguiente ronda. } # Te apuñalo en la cabeza. Estas muerto #
++ Comerte a una persona muerta { Pasas a la siguiente ronda. }
+* Buscar a otras personas que comer { Te has muerto de hambre }
+[2E][2]
+\ Te mordieron pero por alguna razon sobreviviste. Te levantas con hambre... hambre de humanos. Una persona normal esta pasando cerca de ti. Tu reaccion es: \
+= Morderle el pie y comerte a la persona { Pasas a la siguiente ronda. } # Te apuñalo en la cabeza. Estas muerto #
+* Resistir el hambre { Te has muerto de hambre }
+* Dejarlo pasar y buscar a otra persons que comer { Te has muerto de hambre }
++ Levantarte y morderle el cuello { Pasas a la siguiente ronda. }
+[2E][3]
+\ Te mordieron pero por alguna razon sobreviviste. Te levantas con hambre... hambre de humanos. Ves a tu amigo vuelto zombi comiendose a alguien. Tu reaccion es: \
+* Tratar de matarlos { Fallaste. Te has muerto de hambre }
++ Comer con el { Pasas a la siguiente ronda. }
+* Resistir el hambre { Te has muerto de hambre }
+= Buscar a alguien más que comer { Pasas a la siguiente ronda. } # Te has muerto de hambre #
+[2E][4]
+\ Te mordieron pero por alguna razon sobreviviste. Te levantas con hambre... hambre de humanos. Ves a tu hijo llorando alado de ti porque piensa que estas muerto. Tu reaccion es: \
+= Morderle el cuello { Pasas a la siguiente ronda. } # Te apuñalo en la cabeza. Estas muerto #
++ Morderle el pie { Pasas a la siguiente ronda. }
+* Resistir el hambre { Te has muerto de hambre }
+* Levantarte y salir corriendo { Te has muerto de hambre }
+[2E][5]
+\ Te mordieron pero por alguna razon sobreviviste. Te levantas con hambre... hambre de humanos. Estas en una calle vacia y estas a punto de morirte de hambre. Tu reaccion es: \
+* Regresar a tu casa y hacerte un sandwich{Los sandwiches no afectan tu hambre. Te has muerto de hambre }
+* Resistir el hambre { Te has muerto de hambre }
+= Buscar a gente que comer en las calles { Pasas a la siguiente ronda. } # Te has muerto de hambre #
++ Buscar a gente que comer en las casas { Pasas a la siguiente ronda. }
+[3E][1]
+\Ya te alimentaste, sigues hambriento pero ya estas mas enfocado. Escuchas a un grupo de humanos con pistolas cerca. Tu reaccion es:\
++Correr hacia adelante{Pasas a la siguiente ronda.}
+*Correr hacia la izquierda{Te encontraron y te mataron}
+=Correr hacia la derecha{Pasas a la siguiente ronda.}#Te encontraron y te mataron#
+*Enfrentarlos y luchar contra ellos{Te encontraron y te mataron}
+[3E][2]
+\Ya te alimentaste, sigues hambriento pero ya estas mas enfocado. Empiezas a oler sangre humana. Tu siguiente jugada es:\
+=Ir por ella{Pasas a la siguiente ronda.}#Te encontraron y te mataron#
++Correr hacia adelante{Pasas a la siguiente ronda.}
+*Correr hacia la izquierda{Te encontraron y te mataron}
+*Correr hacia la derecha{Te encontraron y te mataron}
+[3E][3]
+\Ya te alimentaste, sigues hambriento pero ya estas mas enfocado. Estas en medio de una calle con cuatro direcciones. Tu siguiente jugada es:\
+*Ir hacia adelante{Te encontraron y te mataron}
+*Ir a la izquierda{Te encontraron y te mataron}
++Ir a la derecha{Pasas a la siguiente ronda.}
+=Ir hacia atras{Pasas a la siguiente ronda.}#Te encontraron y te mataron#
+[3E][4]
+\Ya te alimentaste, sigues hambriento pero ya estas mas enfocado. Un grupo de personas con cuchillos te estan persiguiendo. Tu siguiente jugada es:\
+*Correr hacia adelante{Te encontraron y te mataron}
++Correr hacia el bosque{Pasas a la siguiente ronda.}
+=Correr hacia una casa{Pasas a la siguiente ronda.}#Te encontraron y te mataron#
+*Luchar contra ellos{Te encontraron y te mataron}
+[3E][5]
+\Ya te alimentaste, sigues hambriento pero ya estas mas enfocado. Escuchas balasos cerca de donde estas. Tu suiguiente jugada es:\
+*Correr hacia adelante{Te encontraron y te mataron}
++Correr hacia el bosque{Pasas a la siguiente ronda.}
+=Correr hacia una casa{Pasas a la siguiente ronda.}#Te encontraron y te mataron#
+*Buscarlos y luchar contra ellos{Te encontraron y te mataron}
+[4E][1]
+\Te topaste con un grupo de zombis comiendo humanos y te les unes. Un grupo de humanos con pistolas viene hacia a ti. Hay mas zombis que humanos pero como quiera los quieren matar. Tu reaccion es:\
++Unirteles a los zombis y pelear contra los humanos{Los zombis ganaron la batalla}
+=Esconderte hasta que se acabe la pelea{Los zombis ganaron la batalla}#Te encontraron y te mataron los humanos#
+*Salir corriendo{Te mataron los humanos}
+*Tratar de aliarte con los humanos{Te mataron los humanos}
+[4E][2]
+\Te topaste con un grupo de zombis comiendo humanos y te les unes. Un grupo pequeño de policias esta disparandole a tu grupo. Tu reaccion es:\
+=Pelear contra los policias{Los zombis ganaron la batalla}#Te encontraron y te mataron los humanos#
++Esconderte en el bosque{Los zombis ganaron la batalla}
+*Salir corriendo{Te mataron los humanos}
+*Rendirte{Te mataron los humanos}
+[4E][3]
+\Te topaste con un grupo de zombis comiendo humanos y te les unes. Es una trampa! Aparecen humanos con cuchillos y los empiezan a atacar. Tu reacion es:\
+=Pelear contra ellos{Los zombis ganaron la batalla}#Te encontraron y te mataron los humanos#
+*Esconderte en el bosque{Te encontraron y te mataron los humanos}
+*Salir corriendo{Te encontraron y te mataron los humanos}
++Atacarlos por detras{Los zombis ganaron la batalla}
+[4E][4]
+\Te topaste con un grupo de zombis comiendo humanos y te les unes. Rick, Carl y Daryl de The Walking Dead aparecen y atacan a tu grupo. Tu reaccion es:\
+*Atacarlos{Te mataron... No te metas con ellos}
+=Esconderte hasta que se acabe el ataque{Apenas sobreviviste... No te metas con ellos}#Te encontraron y te mataron#
++Salir corriendo{Sobreviviste pero fuiste el unico... No te metas con ellos}
+*Esconderte y atacar por atras{Te mataron... No te metas con ellos}
+[4E][5]
+\Te topaste con un grupo de zombis comiendo humanos y te les unes. Un grupo de humanos viene hacia ti... Son tus amigos! pero te estan atacando. Tu reacción es:\
+=Atacarlos y comertelos{Pasas a la siguiente ronda}#Te atraparon... Estas muerto#
+*Resistirte el hambre y salir corriendo{Te mataron tus amigos}
+*Atacar a los zombis{Te mataron tus amigos}
++Esconderte hasta que se acabe el ataque{Los zombis ganaron y sobreviviste}
+[5E][1]
+\La ultima pelea! Estas ahora en un grupo enorme de zombis. Los ultimos humanos del mundo estan en una prision. Tu siguiente jugada es:\
+*Atacar la prision por la puerta pricipal{Los humanos te mataron}
+*Esperar hasta que las puertas se abran y atacar{Los humanos te mataron}
+=Atacar la prision por todos lados{Felicidades! Los zombis ganaron! Tienes 35 puntos extra por ser valiente y ganar el juego}#Los humanos te mataron#
++Dejarlos en paz{Felicidades! Los zombis ganaron! Tienes 25 puntos extra por ganar el juego}
+[5E][2]
+\La ultima pelea! Estas ahora en un grupo enorme de zombis. Los ultimos humanos del mundo estan en un bunker. Tu siguiente jugada es:\
++Esperar hasta que salgan{Los humanos salieron y los mataste. Felicidades! Los zombis ganaron. Tienes 25 puntos extra por ganar el juego}
+*Forzar la puerta hasta que se abra{Los humanos te mataron}
+=Dejarlos en paz{Felicidades! Los zombis ganaron! Tienes 35 puntos extra por ser valiente y ganar el juego}#Los humanos salieron y te mataron#
+*Ir a comer humanos muertos{Los humanos salieron y te mataron}
+[5E][3]
+La ultima pelea! Estas ahora en un grupo enorme de zombis. Los ultimos humanos del planeta estan en una casa. Tu estrategia es:
+*Atacar la casa por atras{Los humanos te mataron}
++Atacar la casa por adelante{Felicidades! Los zombis ganaron. Tienes 25 puntos extra por ganar el juego}
+=Esperar hasta que salgan{Felicidades! Los humanos salieron y los zombis ganaron. Tienes 35 puntos extra por ganar el juego}#Los humanos salieron y los mataron#
+*Dejarlos en paz{Los humanos salieron y los mataron}
+[5E][4]
+\La ultima pelea! Estas ahora en un grupo enorme de zombis. Los ultimos humanos estan en una guarida en una montaña. Tu plan es:\
+=Subir la montaña y atacarlos{Felicidades! El ataque fue exitoso y los zombis ganaron. Tienes 35 puntos extra por ganar el juego}#Los humanos te mataron durante el ataque#
+*Dejarlos en paz{Los humanos bajaron y te mataron}
++Esperar a que bajen y matarlos{Felicidades! Los humanos bajaron y los zombis ganaron. Tienes 25 puntos extra por ganar el juego}
+*Ir a comer humanos muertos{Los humanos bajaron y te mataron}
+[5E][5]
+\La ultima pelea! Estas ahora en un grupo enorme de zombis. Los ultimos humanos estan en un pequeño pueblo con paredes protectoras. Tu plan es:\
+=Atacar hasta derribar las puertas{Felicidades! El ataque fue exitoso y los zombis ganaron. Tienes 35 puntos extra por ganar el juego}#Los humanos te mataron durante el ataque#
+*Esperar hasta que salgan para atacar{Los humanos salieron y te mataron}
+*Dejarlos en paz{Los humanos salieron y te mataron}
++Escalar las paredes{"Felicidades! El ataque fue exitoso y los zombis ganaron. Tienes 25 puntos extra por ganar el juego}
